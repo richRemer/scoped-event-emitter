@@ -1,6 +1,6 @@
 {
   "name": "scoped-event-emitter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "EventEmitter with configurable listener scope",
   "main": "scoped-event-emitter.js",
   "scripts": {
