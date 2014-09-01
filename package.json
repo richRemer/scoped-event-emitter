@@ -1,0 +1,22 @@
+{
+  "name": "scoped-event-emitter",
+  "version": "0.0.1",
+  "description": "EventEmitter with configurable listener scope",
+  "main": "scoped-event-emitter.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1",
+    "expect.js": "~0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richRemer/scoped-event-emitter.git"
+  },
+  "author": "Richard Remer (reanjr@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/scoped-event-emitter/issues"
+  }
+}
