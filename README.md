@@ -13,5 +13,7 @@ var ScopedEventEmitter = require("scoped-event-emitter"),
 emitter.on("foo", function() {
     assert(this === obj);
 });
+
+emitter.emit("foo");
 ```
 
