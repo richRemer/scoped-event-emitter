@@ -7,8 +7,13 @@ Using ScopedEventEmitter
 ------------------------
 ```js
 var ScopedEventEmitter = require("scoped-event-emitter"),
-    obj = {},
-    emitter = new ScopedEventEmitter(obj);
+    EventEmitter = require("events").EventEmitter,
+    emitter = new ScopedEventEmitter(obj),
+    obj = {};
+
+assert(emitter instanceof ScopedEventEmitter);
+assert(emitter instanceof EventEmitter);
+assert(emitter !== obj);
 
 emitter.on("foo", function() {
     assert(this === obj);
